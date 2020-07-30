@@ -218,8 +218,8 @@ def jinja2_config(config):
 
 def celery_config(config):
     settings = config.registry.settings
-    settings['CELERY_IMPORTS'] = ('gecoscc.tasks', )
-    settings['BROKER_URL'] = settings['celery_broker_url']
+    # settings['CELERY_IMPORTS'] = ('gecoscc.tasks', )
+    # settings['BROKER_URL'] = settings['celery_broker_url']
 
 
 def locale_config(config):
